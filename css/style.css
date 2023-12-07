@@ -208,9 +208,111 @@ section {
 .crd-cnt p {
     margin-top: 10px;
     font-weight: 500;
+    text-align: center;
     color: rgba(36, 41, 75, 0.767);
 }
 
+/* section third */
+
+.content-third {
+    display: flex;
+    flex-direction: column;
+}
+
+.third-text {
+    width: 100%;
+    height: 55%;
+    position: relative;
+    background-color: rgb(229, 231, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(36, 41, 75, 0.767);
+}
+
+.autor {
+    position: absolute;
+    bottom: 120px;
+    right: calc(100% - 1080px);
+    font-size: 20px;
+    margin-top: 10px;
+    color: var(--first-color);
+
+}
+
+.third-card {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-conterCard {
+    width: calc(100% - 450px);
+    height: 50%;
+    background-color: var(--third-color);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.third-crd {
+width: 70%;
+height: 100%;
+text-align: unset;
+display: flex;
+align-items: center;
+    
+}
+
+.cont-card {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.cont-card h3 {
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.cont-card  p {
+    color: var(--second-color);
+}
+
+.btn-sign {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn-sign button {
+    width: 200px;
+    height: 50px;
+    color: var(--second-color);
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 3px var(--second-color);
+    background-color: var(--third-color);
+}
 
 
-
+footer {
+    width: 100%;
+    height: 70px;
+    color: var(--second-color);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+}
