@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Odin page</title>
 </head>
 <body>
     <main>
         <header id="fixed">
-            <div class="logo">
-                <p>Header Logo</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#first-section">header link one</a></li>
-                    <li><a href="#content-second">header link two</a></li>
-                    <li><a href="#content-third">header link three</a></li>
-                </ul>
-            </nav>
+                <div class="logo">
+                    <p>Header Logo</p>
+                </div>
+                <nav class="nav-menu">
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">                   
+                        <div class="bars_menu">
+                            <span class="line1-bars-menu"></span>
+                            <span class="line2-bars-menu"></span>
+                            <span class="line3-bars-menu"></span>
+                        </div>
+                    </label>
+                    <ul>
+                        <li><a href="#first-section">header link one</a></li>
+                        <li><a href="#content-second">header link two</a></li>
+                        <li><a href="#content-third">header link three</a></li>
+                    </ul>
+                </nav>
         </header>
         <section id="first-section" class="first-section">
             <div class="content">
@@ -81,7 +90,7 @@
             </div>
         </section>
         <footer>
-            Copyrigt © The Odin Project 2021 front - end K-H
+            Copyrigt © 2023 front-end K-H
         </footer>
     </main>
     <script src="js/main.js"></script>
